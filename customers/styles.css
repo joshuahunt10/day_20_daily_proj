@@ -46,6 +46,7 @@ img{
   padding:0px;
   color: #a3a5a2;
   font-size: 0.9rem;
+  text-transform: capitalize;
 }
 
 .idNum{
