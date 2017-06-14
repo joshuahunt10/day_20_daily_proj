@@ -1,0 +1,58 @@
+body{
+  font-family: 'Arial';
+  font-size:16px;
+}
+
+h1{
+  text-align: center;
+  font-size: 3rem;
+}
+
+.customers{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction:row;
+  justify-content: space-between;
+}
+
+.profile-wrapper{
+  flex-basis:23%;
+}
+
+.profile-wrapper{
+  text-align: center;
+}
+img{
+  width:95%;
+}
+
+.name{
+  font-weight: 900;
+}
+
+.name span{
+  border-bottom: solid;
+  border-bottom-color: #28910b;
+}
+
+.email{
+  margin: 5% 0% 11% 0%;
+  color: #dee1e5;
+  font-size: 0.9rem;
+}
+
+.address p{
+  margin: 5px;
+  padding:0px;
+  color: #a3a5a2;
+  font-size: 0.9rem;
+}
+
+.idNum{
+  margin: 5% 0% 10% 0%;
+}
+
+.idNum span{
+  color: transparent;
+  text-shadow: 0 0 7px #28910b;
+}
